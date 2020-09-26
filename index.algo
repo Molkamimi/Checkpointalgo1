@@ -1,0 +1,71 @@
+ALGORITHM read_a_sentence
+VAR
+j,v:INTEGER
+char:character
+STRING str ="..";
+ int Count =0;
+ int wordCount = 0;
+ char ch1 = 'a';
+    char ch2 = 'e';
+    char ch3 = 'i';
+    char ch4 = 'o';
+    char ch5 = 'u';
+
+    int counta = 0;
+    int counte = 0;
+    int counti = 0;
+    int counto = 0;
+    int countu = 0;
+
+    int j = counta + counte + counti + counto + countu;
+
+BEGIN
+ 
+          
+        //Counts each character except space  
+        for(int i = 0; i < string.length(); i++) {  
+            if(string.charAt(i) != ' ')  
+                count++;  
+        }  
+}  
+END_FOR 
+            //Counts all the spaces present in the string  
+            //It doesn't include the first space as it won't be considered as a word  
+            if(sentence.charAt(i) == ' ' && Character.isLetter(sentence.charAt(i+1)) && (i > 0)) {  
+                wordCount++;  
+            }  
+END_FOR
+for each (char v in yourSentence)
+{
+    switch (v)
+    {
+    case 1: 
+        (v==ch1); 
+        counta++; 
+        j++; 
+        break;
+
+    case 2: 
+        (v==ch2); 
+        counte++; 
+        j++; 
+        break;
+    case 3: 
+        (v==ch3); 
+        counti++; 
+        j++; 
+        break;
+    case 4: 
+ (v==ch4); 
+        counto++; 
+        j++; 
+        break;
+    case 5: 
+        (v==ch3); 
+        counti++; 
+        j++; 
+        break;             
+    }
+}
+END
+
